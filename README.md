@@ -51,6 +51,8 @@ The practicals will cover the following:
 We shall be using the following software packages:
 
 [SPM12](http://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
+(or, if you like me you prefer the github option: `git clone https://github.com/neurodebian/spm12`)
+
 
 [Brain Connectivity Toolbox](https://sites.google.com/site/bctnet/Home)
 
