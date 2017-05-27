@@ -9,7 +9,7 @@ raparc_file = '../data/hcp/raparc+aseg.nii';
 rest_fc_file = '../data/hcp/rest_fc_dat.mat';
 mot_fc_file = '../data/hcp/mot_fc_dat.mat';
 
-spm_dir = '../code/spm12';
+spm_dir = '../code/spm12/spm12';
 bct_dir = '../code/BCT';
 
 
@@ -25,7 +25,7 @@ plot_rest_data = 1;
 %% Add toolbox folders
 
 addpath(spm_dir)
-addpath(bct_dir)
+addpath(genpath(bct_dir))
 
 
 %% Load parcellation labels
@@ -40,7 +40,8 @@ uns = unique(raparc_dat);
 uns = uns(45:end); % these are the parcels we are interested in
 
 
-% Compute parcel centre of masses
+%% Compute parcel centre of masses
+
 for u = 1:length(uns)         
   idx = find(raparc_dat==uns(u)); 
   com = mean(raparc_xyz(:,idx),2);
@@ -72,11 +73,11 @@ if compute_mot_fc == 1;
 
   mot_meants_all = meants_all;
 
-  %% Compute pearson correlation (FC)
+  % Compute pearson correlation (FC)
 
   mot_meants_corrs = corrcoef(mot_meants_all');
 
-  %% Save to file
+  % Save to file
 
   save(mot_fc_file, 'mot_meants_all', 'mot_meants_corrs');
 
@@ -174,8 +175,6 @@ if plot_mot_data == 1
   jg_figure_graph_color(mat, raparc_coms',mot_Ci,1,1,1)                       
 
 
-
- 
 end
 
 
