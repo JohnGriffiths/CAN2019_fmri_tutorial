@@ -2,7 +2,6 @@
 
 Material for fMRI tutorial session at CAN 2017 Montreal
 
-***NOTE: content still in preparation. Please check back regularly for updates.***
 
 
 
