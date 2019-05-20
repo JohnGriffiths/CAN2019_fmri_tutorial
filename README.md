@@ -1,4 +1,4 @@
-# CAN2017 fmri tutorial
+# CAN2019 fmri tutorial
 
 Material for fMRI tutorial session at CAN 2017 Montreal
 
@@ -8,11 +8,9 @@ Material for fMRI tutorial session at CAN 2017 Montreal
 ## About The Workshop
 
 
-This repository contains materials for my tutorial at a satellite workshop the Canadian Association for Neuroscience (CAN) 2017 Meeting in Montreal. 
+This repository contains materials for my tutorial at a satellite workshop the Canadian Association for Neuroscience (CAN) 2019 Meeting in Toronto. 
 
-The workshop is titled  *"Neural Signal and Image Processing: Quantitative Analysis of Neural Activity"*
-
-(see [here](http://can-acn.org/satellite-5-neural-signal-and-image-processing-quantitative-analysis-of-neural-activity) for the full program)
+The workshop is titled  *"Neural Signal and Image Processing: Quantitative Analysis of Neural Activity"* (see [here](https://can-acn.org/2019-satellite-symposia/satellite-6-neural-signal-and-image-processing-quantitative-analysis-of-neural-activity) for the full program)
 
 
 Students at the workshop shall be / were exposed to data analysis approaches for a wide variety of neural recording techniques. 
@@ -56,13 +54,9 @@ SPM12 - download [here](http://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
 [Brain Connectivity Toolbox](https://sites.google.com/site/bctnet/Home)
 
 
-
-
-And the following datasets:
+And the following dataset:
 
 [SPM auditory tutorial data](http://www.fil.ion.ucl.ac.uk/spm/download/data/MoAEpilot/MoAEpilot.zip)
-
-[SPM faces tutorial data](http://www.fil.ion.ucl.ac.uk/spm/download/data/face_rep/face_rep.zip)
 
 
 There will be a few USB drives floating around on the day with all the necessary files; but by all means download these in advance and have a play. 
